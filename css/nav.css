@@ -282,7 +282,7 @@ nav:has(.hamburger.open) .logo {
 
 @media (min-width: 850px) {
   .navbar .navlist {
-    display: block;
+    display: flex;
   }
 
   .hamburger {
