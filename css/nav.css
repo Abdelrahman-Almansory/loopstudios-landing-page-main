@@ -276,7 +276,7 @@ nav:has(.hamburger.open) .logo {
 
 @media (min-width: 650px) {
   .header-desc {
-    width: 50%;
+    max-width: fit-content;
   }
 }
 
@@ -295,5 +295,11 @@ nav:has(.hamburger.open) .logo {
 
   .header-desc h1 {
     font-size: 4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header-desc {
+    max-width: 50%;
   }
 }
